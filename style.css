@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #111;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.logo {
+  width: 100px;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+
+}
+
+.nav-links li:hover{
+  color: white;
+  background-color: red;
+  border-radius: 3px;
+}
+
+
+
+.nav-links li {
+  padding: 6px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.avatar {
+  width: 30px;
+  cursor: pointer;
+}
+
+.banner {
+  position: relative;
+  height: 70vh;
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fit/w_828,h_466,q_70,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZjU2MmFhZjQtNWRiYi00NjAzLWEzMmItNmVmNmMyMjMwMTM2XC9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LOYKSxIDqfPwWHR0SSJ-ugGQ6bECF0yO6Cmc0F26CQs');
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner-contents {
+  max-width: 700px;
+}
+
+.banner-title {
+  font-size: 3rem;
+  margin-top: 20px;
+  font-weight: 900;
+}
+
+.banner-description {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  max-width: 500px;
+}
+
+.banner-buttons {
+  margin-top: 10px;
+  
+}
+
+.banner-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #e56c09;
+  color: white;
+}
+
+.banner-button:hover {
+  background-color: #e55209;
+}
+
+.row {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.row h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.row-posters {
+  display: flex;
+  overflow-x: scroll;
+  padding: 20px 0;
+}
+
+.row-poster {
+  max-height: 180px;
+  gap: 10px;
+  object-fit: contain;
+  margin-right: 10px;
+  transition: transform 0.3s;
+}
+
+.row-poster:hover {
+  transform: scale(1.1);
+}
+
+.banner-input{
+  display: inline-block;
+  align-items: center;
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  padding-right: 25px;
+  margin-top: 20px;
+  border: 2px solid white ;
+  border-radius: 3px;
+  color: black;
+  background-color: #e9e5e5;
+  cursor: pointer;
+}
